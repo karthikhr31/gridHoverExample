@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: lightblue !important;
+}
+table {
+	border: 1px solid black;
+	width:100% ; 
+}
+table {
+	border-collapse: collapse;
+}
+th,td{
+	width: 30px;
+	text-align: center !important;
+	padding: 15px;
+}
+.button{
+  background-color:lightblue;
+  border: none;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  display: contents;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:13px;
+}
+tr:hover > td > button > span{ 
+	color: red;
+}
+tr:hover {
+	background-color: #73a6b7;
+}
+span {
+	color: lightblue;
+}
+th:nth-child(n){
+	background-color: #2ba984;
+}
